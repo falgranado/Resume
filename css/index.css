@@ -1,15 +1,32 @@
-.img-center {
-    margin: 0 auto;
+.card{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0 20px 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 20px 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 20px 8px rgba(0, 0, 0, .8);
+  box-shadow: 0px 20px 20px #888888;
+  padding: 10px;
+  margin:40px;
 }
-.img-round{
-	width: 140px;
-	height: 186px;
-	border-radius: 200px;
-	-webkit-border-radius: 200px;
-	-moz-border-radius: 150px;
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	box-shadow: 0px 20px 20px #888888;
+.call-btn-container{
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
 
+}
+.call-btn{
+  width: 80px;
+  height: 80px;
+  background-color: cyan;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  box-shadow: 0 20px 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 20px 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 20px 8px rgba(0, 0, 0, .8);
+  box-shadow: 0px 20px 20px #888888;
+  padding: 10px;
+  margin:0 auto;
+ 
 }
